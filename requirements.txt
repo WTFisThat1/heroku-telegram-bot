@@ -14,7 +14,7 @@ git+https://github.com/Kylmakalle/pyTelegramBotAPI.git@feature-BotAPIV3
 
 telebot
 requests
-urllib
+
 constants
 pymongo
 datetime
