@@ -25,7 +25,7 @@ token = os.environ['TELEGRAM_TOKEN']
 # bot = telebot.TeleBot(token)
 # some_api = some_api_lib.connect(some_api_token)
 #              ...
-bot = telebot.TeleBot(constants.token)
+bot = telebot.TeleBot(token)
 
 client = MongoClient("mongodb://admin:admin@cluster0-shard-00-00-clzyx.mongodb.net:27017,cluster0-shard-00-01-clzyx.mongodb.net:27017,cluster0-shard-00-02-clzyx.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin")
 
